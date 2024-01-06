@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex: 1 0 40%;
+    min-width: 400px;
+
+    background-image: url(/images/left-side.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left -50px;
+}
+
+.logo-bar {
+    background: rgba(0, 0, 0, 0.15);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 200px;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 60%;
+    /* justify-content: space-between; */
+}
+
+.right-side-top {
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.right-side-middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side-bottom {
+    background-color: gainsboro;
+}
+
+.right-side-top, .right-side-middle, .right-side-bottom {
+    padding: 30px 30px;
+    height: 33%;
+}
+
+input, label {
+    display: block;
+}
+
+.form-name, .form-contact-info, .form-password {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    margin: 10px 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    min-width: 400px;
+    max-width: 600px;
+}
+
+button {
+    margin: 30px 0;
+}
+
+.msg-1, .msg-2 {
+    font-size: 25px;
+}
+
+.msg-2 {
+    padding-bottom: 20px;
+}
